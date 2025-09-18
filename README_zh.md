@@ -4,7 +4,7 @@
 
 <p align="center">
   
-# 👉🏻 琴语（QinYu）：兼具高自然度、自然口语化与情感可控的高保真零样本语音合成系列 👈🏻  
+# 👉🏻 琴语（QinYu）：高保真零样本语音合成系列 👈🏻  
 
 <a href="http://tme-lyra-lab.github.io/"><img src="https://img.shields.io/badge/Demo-Try%20Now-blue" alt="Demo"></a> | <a href="README_zh.md"><img src="https://img.shields.io/badge/Language-English-green" alt="English"></a>
 
@@ -72,4 +72,5 @@
 }
 
 ```
+
 
