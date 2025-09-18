@@ -13,11 +13,7 @@ QinYu is a breakthrough high-fidelity text-to-speech (TTS) system that redefines
 
 ## Core Capabilities  
 ### Paralanguage Voice Generation  
-Generates authentic paralinguistic elements like natural laughter, sighs, and prosodic pauses, making synthetic speech indistinguishable from human conversation.  
-
-*Example*:  
-- Text: "你上次说减肥，结果半夜发朋友圈烧烤配奶茶，快乐似神仙。哈哈哈，这波自我攻略我服！"  
-- QinYu Output: Captures genuine laughter cadence and conversational emphasis, mirroring real-life speech patterns.  
+Generates authentic paralinguistic elements like natural laughter and prosodic pauses, making synthetic speech indistinguishable from human conversation.  
 
 
 ### Instructed Voice Generation (QinYuInstruct)  
@@ -34,11 +30,11 @@ Enables fine-grained emotional control via natural language descriptions, with m
 Customizes voice timbre based on character attributes (age, gender, identity, personality), creating distinct vocal identities for diverse roles.  
 
 *Categories*:  
-- Child (e.g., "骄慢却善良的小郡主")  
-- Youth (e.g., "温婉善良的女医者")  
-- Middle-aged (e.g., "铁血威严的王朝将军")  
-- Elderly (e.g., "深不可测的退隐老帝")  
-- Non-human (e.g., "沉稳寡言的古木灵")  
+- Child (e.g., "该角色是一个幼儿女性，身份是小郡主/公主，性格骄慢却善良、爱助人，气质高贵带娇憨。")  
+- Youth (e.g., "该角色是一个青年女性，身份是医者/药师，性格温婉善良、细腻包容，气质清雅含蓄，音色柔和温暖，语速舒缓")  
+- Middle-aged (e.g., "该角色是一个中年男性，身份是王朝将军，性格铁血威严、霸气侧漏，气质不怒自威")  
+- Elderly (e.g., "该角色是一个老年男性，身份是退隐老帝/太上皇，性格深不可测、威势犹存，气质泰山压顶")  
+- Non-human (e.g., "该角色是一个非人类树精（中年男性），身份是古木灵/山林守护者，性格沉稳寡言、爱自然，气质古老带绿意")  
 
 
 ### Podcast Generation (QinYuCast)  
