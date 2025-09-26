@@ -22,7 +22,7 @@
 - 说话人多样性：提供多种独特声线，且在不同情感和文本中保持音色一致。  
 
 
-### [文本到音色语音合成(Text-to-Timbre)](https://github.com/TME-Lyra-Lab/DeepDubbing)  
+### [文本到音色语音合成 (Text-to-Timbre)](https://github.com/TME-Lyra-Lab/DeepDubbing)  
 
 可根据角色属性（年龄、性别、身份、性格）定制语音音色，为不同角色打造独特的声音标识。  
 
@@ -70,6 +70,7 @@
 }
 
 ```
+
 
 
 
