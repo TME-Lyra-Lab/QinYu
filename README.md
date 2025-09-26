@@ -34,7 +34,7 @@ Customizes voice timbre based on character attributes (age, gender, identity, pe
 ### Full-cast Audiobook Generation
 Full-cast Audiobook Generation is a function that can generate corresponding voices for different characters based on text content, creating vivid and immersive audiobook experiences for listeners.
 
-### Podcast Generation (QinYuCast)  
+### Podcast Generation (QinYu-Cast)  
 Specialized for podcast scenarios, delivering natural conversational flow with colloquial artifacts that mimic real human dialogue.  
 
 *Key Features*:  
@@ -49,8 +49,8 @@ Specialized for podcast scenarios, delivering natural conversational flow with c
 
 
 ### Scenario-Specific Variants  
-- **QinYuCast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
-- **QinYuInstruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
+- **QinYu-Cast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
+- **QinYu-Instruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
 
 
 ## Technical Advantages  
