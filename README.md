@@ -12,11 +12,7 @@ QinYu is a breakthrough high-fidelity text-to-speech (TTS) system that redefines
 
 
 ## Core Capabilities  
-### Paralanguage Voice Generation  
-Generates authentic paralinguistic elements like natural laughter and prosodic pauses, making synthetic speech indistinguishable from human conversation.  
-
-
-### Instructed Voice Generation (QinYuInstruct)  
+### Instructed Voice Generation (QinYu-Instruct)  
 Enables fine-grained emotional control via natural language descriptions, with multi-speaker support for scenario-specific expression.  
 
 *Key Features*:  
@@ -24,8 +20,7 @@ Enables fine-grained emotional control via natural language descriptions, with m
 - Speaker diversity: Multiple unique voices with consistent timbre across emotions and texts.  
 
 
-### Text-to-Timbre
-[Demos](https://tme-lyra-lab.github.io/QinYu-AutoBook/)
+### [Text-to-Timbre](https://github.com/TME-Lyra-Lab/DeepDubbing)
 
 Customizes voice timbre based on character attributes (age, gender, identity, personality), creating distinct vocal identities for diverse roles.  
 
@@ -37,7 +32,7 @@ Customizes voice timbre based on character attributes (age, gender, identity, pe
 - Non-human (e.g., "该角色是一个非人类树精（中年男性），身份是古木灵/山林守护者，性格沉稳寡言、爱自然，气质古老带绿意")  
 
 
-### Podcast Generation (QinYuCast)  
+### Podcast Generation (QinYu-Cast)  
 Specialized for podcast scenarios, delivering natural conversational flow with colloquial artifacts that mimic real human dialogue.  
 
 *Key Features*:  
@@ -52,8 +47,8 @@ Specialized for podcast scenarios, delivering natural conversational flow with c
 
 
 ### Scenario-Specific Variants  
-- **QinYuCast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
-- **QinYuInstruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
+- **QinYu-Cast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
+- **QinYu-Instruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
 
 
 ## Technical Advantages  
