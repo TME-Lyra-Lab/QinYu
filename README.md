@@ -12,11 +12,7 @@ QinYu is a breakthrough high-fidelity text-to-speech (TTS) system that redefines
 
 
 ## Core Capabilities  
-### Paralanguage Voice Generation  
-Generates authentic paralinguistic elements like natural laughter and prosodic pauses, making synthetic speech indistinguishable from human conversation.  
-
-
-### Instructed Voice Generation (QinYuInstruct)  
+### Instructed Voice Generation (QinYu-Instruct)  
 Enables fine-grained emotional control via natural language descriptions, with multi-speaker support for scenario-specific expression.  
 
 *Key Features*:  
@@ -24,20 +20,21 @@ Enables fine-grained emotional control via natural language descriptions, with m
 - Speaker diversity: Multiple unique voices with consistent timbre across emotions and texts.  
 
 
-### Text-to-Timbre
-[Demos](https://tme-lyra-lab.github.io/QinYu-AutoBook/)
+### [Text-to-Timbre](https://github.com/TME-Lyra-Lab/DeepDubbing)
 
 Customizes voice timbre based on character attributes (age, gender, identity, personality), creating distinct vocal identities for diverse roles.  
 
 *Categories*:  
 - Child (e.g., "该角色是一个幼儿女性，身份是小郡主/公主，性格骄慢却善良、爱助人，气质高贵带娇憨。")  
 - Youth (e.g., "该角色是一个青年女性，身份是医者/药师，性格温婉善良、细腻包容，气质清雅含蓄，音色柔和温暖，语速舒缓")  
-- Middle-aged (e.g., "该角色是一个中年男性，身份是王朝将军，性格铁血威严、霸气侧漏，气质不怒自威")  
+- Middle-aged (e.g., "该角色是一个中年女性，身份是丧夫寡妇/孤母，性格忧郁坚韧、撑家计，气质悲苦却倔强")  
 - Elderly (e.g., "该角色是一个老年男性，身份是退隐老帝/太上皇，性格深不可测、威势犹存，气质泰山压顶")  
 - Non-human (e.g., "该角色是一个非人类树精（中年男性），身份是古木灵/山林守护者，性格沉稳寡言、爱自然，气质古老带绿意")  
 
+### Full-cast Audiobook Generation
+Full-cast Audiobook Generation is a function that can generate corresponding voices for different characters based on text content, creating vivid and immersive audiobook experiences for listeners.
 
-### Podcast Generation (QinYuCast)  
+### Podcast Generation (QinYu-Cast)  
 Specialized for podcast scenarios, delivering natural conversational flow with colloquial artifacts that mimic real human dialogue.  
 
 *Key Features*:  
@@ -52,8 +49,8 @@ Specialized for podcast scenarios, delivering natural conversational flow with c
 
 
 ### Scenario-Specific Variants  
-- **QinYuCast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
-- **QinYuInstruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
+- **QinYu-Cast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
+- **QinYu-Instruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
 
 
 ## Technical Advantages  
