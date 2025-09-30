@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png" width="150"/>
+    <img src="figs/logo.png" width="150"/>
 <p>
 
   
@@ -10,6 +10,9 @@
 ## Highlight🔥  
 QinYu is a breakthrough high-fidelity text-to-speech (TTS) system that redefines synthetic speech quality with 32kHz studio-grade audio, natural conversational flow, and precise emotional expression—surpassing the 22kHz limit of most open-source TTS systems.  
 
+<p align="center">
+    <img src="figs/qinyu.png" width="400"/>
+<p>
 
 ## Core Capabilities  
 ### Instructed Voice Generation (QinYu-Instruct)  
