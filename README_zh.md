@@ -2,7 +2,7 @@
     <img src="figs/logo.png" width="150"/>
 <p>
   
-# 👉🏻 琴语（QinYu）：高音质零样本语音合成集合 👈🏻  
+# 👉🏻 琴语（QinYu）：高音质零样本语音合成大模型 👈🏻  
 
 <a href="http://tme-lyra-lab.github.io/"><img src="https://img.shields.io/badge/Demo-Try%20Now-blue" alt="Demo"></a> | <a href="README_zh.md"><img src="https://img.shields.io/badge/Language-English-green" alt="English"></a>
 
@@ -59,6 +59,7 @@
 }
 
 ```
+
 
 
 
