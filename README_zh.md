@@ -1,8 +1,6 @@
 <p align="center">
-    <img src="logo.png" width="150"/>
+    <img src="figs/logo.png" width="150"/>
 <p>
-
-<p align="center">
   
 # 👉🏻 琴语（QinYu）：高音质零样本语音合成集合 👈🏻  
 
@@ -61,6 +59,7 @@
 }
 
 ```
+
 
 
 
