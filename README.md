@@ -15,52 +15,36 @@ QinYu is a breakthrough high-fidelity text-to-speech (TTS) system that redefines
 <p>
 
 ## Core Capabilities  
+
+### Basic
+
+- HiFi：32kHz, rich spectral details, high clarity, and good sound quality
+- ZeroShot：voice clone using only about 10 seconds of audio.
+
+
 ### Instructed Voice Generation (QinYu-Instruct)  
-Enables fine-grained emotional control via natural language descriptions, with multi-speaker support for scenario-specific expression.  
+Supports refined emotional control through natural language descriptions. Natural language descriptions are mainly divided into emotional descriptions and scene descriptions, with the main form being emotional description|scene description|copy.
 
-*Key Features*:  
-- Emotion specificity: "愤怒、质问", "无奈", "遗憾惋惜", "懊恼、关切"  
-- Speaker diversity: Multiple unique voices with consistent timbre across emotions and texts.  
-
+*Example*:   
+- 惊喜、兴奋|意外获得好消息|真的吗？哈哈哈哈，看来我的运气不错！
+- 惊喜|意外获得礼物|天哪！我打开盒子一看，竟然是我最想要的那把剑！
+- 好奇|对未知事物或秘密的兴趣|你是怎么做到让这个机器运转起来的？快教教我！
+- 愤怒、质问|怀疑伴侣不忠时的尖锐质问|你心里难不成还有人？或者，你看上了今日的魏无勋？
 
 ### [Text-to-Timbre](https://github.com/TME-Lyra-Lab/DeepDubbing)
 
-Customizes voice timbre based on character attributes (age, gender, identity, personality), creating distinct vocal identities for diverse roles.  
+Voice timbres can be customized according to character attributes (age, gender, identity, personality) to create unique voice identities for different characters.
 
-*Categories*:  
+*Example*:  
 - Child (e.g., "该角色是一个幼儿女性，身份是小郡主/公主，性格骄慢却善良、爱助人，气质高贵带娇憨。")  
 - Youth (e.g., "该角色是一个青年女性，身份是医者/药师，性格温婉善良、细腻包容，气质清雅含蓄，音色柔和温暖，语速舒缓")  
 - Middle-aged (e.g., "该角色是一个中年女性，身份是丧夫寡妇/孤母，性格忧郁坚韧、撑家计，气质悲苦却倔强")  
 - Elderly (e.g., "该角色是一个老年男性，身份是退隐老帝/太上皇，性格深不可测、威势犹存，气质泰山压顶")  
 - Non-human (e.g., "该角色是一个非人类树精（中年男性），身份是古木灵/山林守护者，性格沉稳寡言、爱自然，气质古老带绿意")  
 
-### Full-cast Audiobook Generation
-Full-cast Audiobook Generation is a function that can generate corresponding voices for different characters based on text content, creating vivid and immersive audiobook experiences for listeners.
+### Spontaneous 
 
-### Podcast Generation (QinYu-Cast)  
-Specialized for podcast scenarios, delivering natural conversational flow with colloquial artifacts that mimic real human dialogue.  
-
-*Key Features*:  
-- Spontaneous interaction: Automatically inserts natural pauses, filler words ("呃", "对吧"), and conversational cues.  
-- Role differentiation: Maintains distinct voice characteristics for multiple speakers in dialogue.  
-- Topic adaptation: Adjusts prosody to match content tone (e.g., analytical for music reviews, casual for daily chats).  
-
-*Example*:  
-- [S1] 哈喽大家好，欢迎收听今天的播客，咱们聊聊周杰伦的《止战之殇》啊。  
-- [S2] 这歌我熟！创作背景特别有意义，是以海参崴的战后场景为原型的吧？  
-- [S1] 对，而且MV里特意用了孩子的镜头，那种空洞的眼神特别打动人……  
-
-
-### Scenario-Specific Variants  
-- **QinYu-Cast**: Optimized for podcasts and conversational scenarios, automating colloquial artifacts like natural pauses, hesitations, and interjections.  
-- **QinYu-Instruct**: Tailored for narrative contexts (audiobooks, storytelling), enabling emotion specification via simple descriptions (e.g., "warm", "excited", "sorrowful").  
-
-
-## Technical Advantages  
-- **High Fidelity**: 32kHz audio resolution with rich spectral details, exceeding industry standards for clarity and naturalness.  
-- **Zero-Shot Adaptability**: No fine-tuning required for new voices, emotions, or languages, enabling rapid deployment across use cases.  
-- **Scalability**: Built on a million-hour-scale base model, with future "ALL-in-One" architecture planning to integrate controllable paralinguistic tagging, adjustable colloquialism strength, and novel voice generation.  
-
+For the podcast dialogue scenario, we have implemented the ability for spontaneous colloquial expression (with automatic addition of pauses, hesitations, and moments of thinking) as well as enhanced paralinguistic expression, resulting in a more realistic and human-like effect.T
 
 ### BibTeX
 ```bibtex
